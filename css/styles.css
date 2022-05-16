@@ -10,6 +10,7 @@ body{
 width:1600px;
 height:80px;
 border: 1px solid #ececec;
+display:flex;
 }
 .header li, ul {
     list-style:none;
@@ -29,7 +30,7 @@ border: 1px solid #ececec;
     letter-spacing:0.03em;
     color:#2196f3;
     margin-left:215px;
-    margin-top:8px;
+    padding-top:24px;
 }
 .logo:hover{
     text-decoration:underline;
