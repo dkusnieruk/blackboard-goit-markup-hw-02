@@ -6,22 +6,27 @@ body{
  font-family:Roboto;
  font-style:normal;   
 }
+
 .header{
 width:1600px;
 height:80px;
 border: 1px solid #ececec;
 display:flex;
 }
+
 .header li, ul {
     list-style:none;
     display:flex;
 }
+
 .header nav{
     display:flex;
 }
+
 .header a{
     text-decoration:none;
 }
+
 .logo{
     font-family:Raleway;
     font-weight:700;
@@ -32,9 +37,15 @@ display:flex;
     margin-left:215px;
     padding-top:24px;
 }
+
 .logo:hover{
     text-decoration:underline;
 }
+
+.logo:focus{
+    text-decoration:underline;
+}
+
 .logo span{
     color:black;
 }
@@ -48,17 +59,27 @@ display:flex;
 }
 .header nav a:hover{
     text-decoration:underline;
+    color:red;
 }
+
+.header nav a:focus{
+    text-decoration:underline;
+   color:red;   
+}
+
 .header nav a{
     color:#212121;
 }
+
 .header nav li
 {
     padding-right:46px;
 }
+
 .mailto{
     margin-left:364px;
 }
+
 .mailto
 .tel{
     font-weight:500;
@@ -67,6 +88,7 @@ display:flex;
     letter-spacing:0.02em;
     
 }
+
 .mailto a,
 .tel a 
 {
@@ -74,10 +96,19 @@ display:flex;
     padding-right:50px;
     margin-top:16px;
 }
+
 .mailto:hover, 
 .tel:hover {
     text-decoration:underline;
+    color:red;
 }
+
+.mailto:focus, 
+.tel:focus {
+    text-decoration:underline;
+    color:red;
+}
+
 .button{
     margin-top:94px;
     
@@ -98,6 +129,12 @@ border:none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     text-decoration:underline;
 }
+
+.button button:focus{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    text-decoration:underline;
+}
+
 .container img{
     width:370px;
     height:294px;
@@ -105,6 +142,7 @@ border:none;
 
 a {
     text-decoration:none;
+    cursor:pointer;
 }
 
 .titles{
@@ -113,18 +151,22 @@ a {
     letter-spacing:0.06em;
     padding-left:24px;
 }
+
 .titles a{
     color:#212121
 }
+
 .description{
     font-size:16px;
     line-height:30px;
     letter-spacing:0,03em;
     padding-left:24px;
 }
+
 .description a{
     color:#757575;
 }
+
 figure{
     width:370px;
     height:404px;
@@ -133,6 +175,7 @@ figure{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); 
 
 }
+
 .card-set {
     display:flex;
     flex-wrap:wrap;
@@ -143,13 +186,27 @@ figure{
 .description:hover,
 .containter img:hover
 {
-    text-decoration:underline;
-    } 
+    color:red;
+        text-decoration-color:red;
+        text-decoration:underline;
+
+    }
+
+.titles:focus,
+.description:focus,
+.containter img:focus
+    {
+        color:red;
+        text-decoration-color:red;
+        text-decoration:underline;
+        }
+        
 footer{
    width:1600px;
    height:252px;
    background:#2F303A; 
 }
+
 .logodown a{
     color:#2196f3; 
     font-family:Raleway; 
@@ -160,36 +217,44 @@ footer{
     text-decoration:none;
     padding-left:215px;
    }
+
    .logodown{
        padding-top:60px;
        margin-bottom:20px;
     }
-   .mailto2 a {
+
+    .mailto2 a {
     color:rgba(255,255,255,0.6);
     text-decoration:none;
     padding-left:215px;
    }
+
    .mailto2 {
     padding-top:9px;
    }
+
    .tele2 a{
     color:rgba(255,255,255,0.6);
     text-decoration:none;
     padding-left:215px;
    }
+
    .adressdown{
        color:white;
        padding-left:215px;
    }
-.social img{
+
+   .social img{
     width:46px;
     height:46px; 
     padding-left:10px;
 
 }
+
 .social{
     padding-left:70px;}
-h2{
+
+    h2{
     font-weight:700;
     font-size:14px;
     line-height:1.14em;
@@ -199,7 +264,7 @@ h2{
     margin-top:72px;
     margin-left:70px;
 }
+
 footer{
     display:flex;
-    
-}
+    }
